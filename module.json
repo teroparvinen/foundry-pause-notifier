@@ -1,0 +1,45 @@
+{
+    "id": "pause-notifier",
+    "title": "Pause Notifier",
+    "description": "Gives an indication when a player tries to move a token but the game is paused.",
+    "authors": [
+        {
+            "name": "Tero Parvinen (Whistler#3253)"
+        }
+    ],
+    "version": "10.0",
+    "compatibility": {
+        "minimum": 10,
+        "verified": 10
+    },
+    "relationships": {
+        "requires": [
+            {
+                "id": "lib-wrapper",
+                "type": "module"
+            },
+            {
+                "id": "socketlib",
+                "type": "module"
+            }
+        ]
+    },
+    "socket": true,
+    "esmodules": [
+        "./module/pause-notifier.js"
+    ],
+    "styles": [
+        "styles/pause-notifier.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "./lang/en.json"
+        }
+    ],
+    "url": "https://github.com/teroparvinen/foundry-pause-notifier",
+    "bugs": "https://github.com/teroparvinen/foundry-pause-notifier/issues",
+    "manifest": "https://github.com/teroparvinen/foundry-pause-notifier/releases/latest/download/module.json",
+    "download": "https://github.com/teroparvinen/foundry-pause-notifier/releases/latest/download/module.zip"
+}

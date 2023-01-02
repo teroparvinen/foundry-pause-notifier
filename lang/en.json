@@ -1,0 +1,8 @@
+{
+    "pause-notifier": {
+        "floater": "(Pause)",
+        "setting-suppress-warning": "Suppress the default warning notification",
+        "setting-show-floater": "Show a floating notification on token(s)",
+        "setting-pulse-pause": "Animate the pause indicator for the GM"
+    }
+}
